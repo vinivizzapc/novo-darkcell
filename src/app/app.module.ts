@@ -6,6 +6,7 @@ import { FooterComponent } from './component/footer/footer.component';
 import { HeaderComponent } from './component/header/header.component';
 import { MenuComponent } from './component/menu/menu.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TelaInicialComponent } from './component/tela-inicial/tela-inicial.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppComponent,
     FooterComponent,
     HeaderComponent,
-    MenuComponent
+    MenuComponent,
+    TelaInicialComponent
   ],
   imports: [
     BrowserModule,
